@@ -1,6 +1,8 @@
+import { Widget } from "./components/Widget"
+
 function App() {
   return (
-    <h1>FEEDBACK WIDGET</h1>
+    <Widget />
   )
 }
 
