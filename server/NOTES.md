@@ -72,3 +72,23 @@ To start our project run the command calling our script that we created in **pac
 ```
 
 we can test in our browser by going to **http://localhost:3333/users**
+
+
+## Prisma ORM
+```bash
+  # Install prisma dev dependecy
+  $ npm i prisma
+
+  # Install prisma client
+  $ npm i @prisma/client
+
+  # Initi prisma on project
+  $ npx prisma init
+
+  # Create your migration
+  # after run command, insert name for the new migration, ex: create users
+  $ npx prisma migrate dev
+
+  # Open interface prisma studio for view databases and tables in your browser
+  $ npx prisma studio
+```
