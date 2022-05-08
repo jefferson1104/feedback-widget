@@ -92,3 +92,51 @@ we can test in our browser by going to **http://localhost:3333/users**
   # Open interface prisma studio for view databases and tables in your browser
   $ npx prisma studio
 ```
+
+## Jest and SWC (install and configure to typescript nodejs project)
+```bash
+  # Install jest develop dependency
+  $ npm i -D Jest
+
+  # Install jest types for typescript
+  $ npm i -D @types/jest
+
+  # Init Jest
+  $ npx jest --initi
+
+  # Questions to jest init
+  # Would you like to use Jest when running "test" script in "package.json"?
+  $ y
+  # Would you like to use Typescript for the configuration file? › (y/N)
+  $ y
+  # hoose the test environment that will be used for testing
+  $ node
+  # Do you want Jest to add coverage reports?
+  $ y
+  # Which provider should be used to instrument code for coverage?
+  $ v8
+  # Automatically clear mock calls, instances, contexts and results before every test?
+  $ y
+
+  # Install TS NODE
+  $ npm i -D ts-node
+
+  # Install SWC to develop dependency
+  $ npm i -D @swc/jest
+```
+
+In your file "jest.config.js" look for the line **"transform: undefined"**, uncomment and change it as follows:
+```typescript
+  transform: {
+    "^.+\\.(t|j)sx?$": ["@swc/jest"],
+  },
+```
+
+After configuring jest in your project, to run the tests run the command:
+```bash
+  # to run the test once
+  $ npm run test
+
+  # to run the test in "watch" mode
+  $ npm run test --watch
+```
