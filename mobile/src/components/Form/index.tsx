@@ -6,9 +6,11 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-
 import { ArrowLeft } from 'phosphor-react-native';
+
 import { FeedbackType } from '../../components/Widget';
+import { ScreenshotButton } from '../../components/ScreenshotButton';
+
 import { styles } from './styles';
 import { theme } from '../../theme';
 import { feedbackTypes } from '../../utils/feedbackTypes';
@@ -48,6 +50,14 @@ export function Form({ feedbackType }: FormProps) {
         placeholder="Type your feedback here and send..."
         placeholderTextColor={theme.colors.text_secondary}
       />
+
+      <View style={styles.footer}>
+        <ScreenshotButton 
+          onTakeShot={() => {}}
+          onRemoveShot={() => {}}
+          screenshot={''}
+        />
+      </View>
     </View>
   );
 }
