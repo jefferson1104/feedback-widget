@@ -58,6 +58,5 @@ $ expo start --clear
 ```
 
 ## Screenshots
-<img alt="gobarber" src="./assets/banner-screenshot-01.png" width="450" style="border-radius: 10px; margin-right: 10px;" heigth="auto"/>
-
-<img alt="gobarber" src="./assets/banner-screenshot-02.png" width="450" style="border-radius: 10px;" heigth="auto"/>
+![screenshot-01](./assets/banner-screenshot-01.png)
+![screenshot-01](./assets/banner-screenshot-02.png)
