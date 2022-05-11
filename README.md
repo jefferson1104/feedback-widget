@@ -10,7 +10,7 @@
   </p>  
 </div>
 
-<div style="display: flex; justify-content: center;">
+<div align="center" style="display: flex; justify-content: center;">
   <img alt="gobarber" src="./assets/banner-screenshot-01.png" width="250" style="border-radius: 10px; margin-right: 10px;" heigth="auto"/>
 
   <img alt="gobarber" src="./assets/banner-screenshot-02.png" width="250" style="border-radius: 10px;" heigth="auto"/>
