@@ -10,12 +10,6 @@
   </p>  
 </div>
 
-<div align="center" style="display: flex; justify-content: center;">
-  <img alt="gobarber" src="./assets/banner-screenshot-01.png" width="250" style="border-radius: 10px; margin-right: 10px;" heigth="auto"/>
-
-  <img alt="gobarber" src="./assets/banner-screenshot-02.png" width="250" style="border-radius: 10px;" heigth="auto"/>
-</div>
-
 ## About project
 FEEDBACK-WIDGET is a project developed with NodeJS, ReactJS and React Native using typescript, its function is to send feedbacks describing a problem, an idea or any other subject, the sending is done to the API that stores the data in a database and it also sends an email to the person responsible for the application.
 
@@ -62,3 +56,8 @@ $ npm run dev
 # Run mobile project using "Expo"
 $ expo start --clear
 ```
+
+## Screenshots
+<img alt="gobarber" src="./assets/banner-screenshot-01.png" width="450" style="border-radius: 10px; margin-right: 10px;" heigth="auto"/>
+
+<img alt="gobarber" src="./assets/banner-screenshot-02.png" width="450" style="border-radius: 10px;" heigth="auto"/>
